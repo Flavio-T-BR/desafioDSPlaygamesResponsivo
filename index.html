@@ -5,29 +5,38 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>DSPlayGames</title>
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <header>
       <nav class="nav-main">
+        <div class="nav-contents container">
         <h2 class="nav-brand">DSPlayGames</h2>
         <ul class="menu-items">
           <li><a href="#news">Notícias</a></li>
           <li><a href="#games">Jogos</a></li>
           <li><a href="#subscribe">Inscreva-se</a></li>
+          <img class="thumbnail-big" src="img/profileImage.png" alt="thumbnail" />
         </ul>
-        <img class="thumbnail" src="img/profileImage.png" alt="thumbnail" />
+        <img class="thumbnail-mini" src="img/profileImage.png" alt="thumbnail" />
+      </div>
       </nav>
     </header>
     <main>
-      <section id="news" class="section-news">
-        <h1>Últimas notícias</h1>
-        <div class="news-card">
+      <section id="news" class="section-news"> 
+          <h1>Últimas notícias</h1>
+        <div class="news-card container">
           <div class="news-card-description">
             <h2>Título principal da notícia</h2>
             <h3>
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
               Architecto vitae ducimus aperiam.
             </h3>
+            <div class ="line">
+            </div>
+            <div class="news-date">
+              23/02/2022
+            </div>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
               Architecto vitae ducimus aperiam. Harum, in dicta? Perspiciatis
@@ -48,140 +57,149 @@
               perspiciatis voluptatem sequi nostrum necessitatibus culpa fuga
               ...
             </p>
+            <br>
+              <h4>Ler mais...</h4>
+        </div>
+        </div>
+          <div class="news-card container">
+            <div class="news-card-description">
+              <h2>Título principal da notícia</h2>
+              <h3>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Architecto vitae ducimus aperiam.
+              </h3>
+              <div class ="line">
+              </div>
+              <div class="news-date">
+                23/02/2022
+              </div>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Architecto vitae ducimus aperiam. Harum, in dicta? Perspiciatis
+                nam, facilis nesciunt, expedita esse labore officiis ut ipsam
+                voluptates aperiam laboriosam sequi! Expedita vitae iste quae
+                veniam molestiae ea ad alias maiores. Numquam dolor eaque
+                recusandae eius nihil quibusdam esse nisi asperiores in nulla
+                dicta distinctio aliquid ullam aspernatur ad amet fugit dolorem
+                sapiente veritatis quo, rem a. Molestiae qui sed enim! Laborum
+                doloribus nisi quia dolore obcaecati reiciendis quae, numquam
+                consectetur sed animi temporibus inventore nemo. Asperiores fugit
+                rerum, placeat quas in nobis obcaecati similique quae assumenda
+                culpa ab sit voluptatum molestiae voluptates facilis optio
+                recusandae tempore nihil atque et nesciunt nemo perferendis
+                adipisci harum. Corrupti eum autem veritatis et beatae reiciendis,
+                deleniti corporis, voluptas, eaque ipsa nemo odio? Eligendi
+                sapiente id enim quibusdam, repudiandae optio error! Vitae
+                perspiciatis voluptatem sequi nostrum necessitatibus culpa fuga
+                ...
+              </p>
+              <br>
+              <h4>Ler mais...</h4>
+            </div>
           </div>
-          <div class="news-card-description">
-            <h2>Título principal da notícia</h2>
-            <h3>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Architecto vitae ducimus aperiam.
-            </h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Architecto vitae ducimus aperiam. Harum, in dicta? Perspiciatis
-              nam, facilis nesciunt, expedita esse labore officiis ut ipsam
-              voluptates aperiam laboriosam sequi! Expedita vitae iste quae
-              veniam molestiae ea ad alias maiores. Numquam dolor eaque
-              recusandae eius nihil quibusdam esse nisi asperiores in nulla
-              dicta distinctio aliquid ullam aspernatur ad amet fugit dolorem
-              sapiente veritatis quo, rem a. Molestiae qui sed enim! Laborum
-              doloribus nisi quia dolore obcaecati reiciendis quae, numquam
-              consectetur sed animi temporibus inventore nemo. Asperiores fugit
-              rerum, placeat quas in nobis obcaecati similique quae assumenda
-              culpa ab sit voluptatum molestiae voluptates facilis optio
-              recusandae tempore nihil atque et nesciunt nemo perferendis
-              adipisci harum. Corrupti eum autem veritatis et beatae reiciendis,
-              deleniti corporis, voluptas, eaque ipsa nemo odio? Eligendi
-              sapiente id enim quibusdam, repudiandae optio error! Vitae
-              perspiciatis voluptatem sequi nostrum necessitatibus culpa fuga
-              ...
-            </p>
+          <div class="button-content container">
+          <button class="load-button">Carregar mais</button>
           </div>
+        </div>
         </div>
       </section>
       <section id="games" class="section-games">
-        <h1>Jogos</h1>
-        <div class="game-card">
-          <img
-            class="game-card-img"
-            src="img/game.png"
-            alt="Horizon Forbidden West"
-          />
+          <div class="section-games-title">Jogos
+          </div>
+          <div class="section-games-content container"> 
+            <div class="game-card">
+          <img class="game-card-img" src="img/game.png" alt="Horizon Forbidden West"/>
           <div class="game-card-description">
-            <h3>Horzion Forbidden West</h3>
-            <p>De Sony Interactive Entertainment</p>
-            <p class="game-score">9.7</p>
+            <h3>Horizon Forbidden West</h3>
+            <p><span class="producer">De</span>&nbsp;Sony Interactive Entertainment</p>
+            <div class="score-box">
+            <h2 class="game-card-score">9.7</h2>
+          </div>
+          </div>
+          </div>
+        <div class="game-card">
+          <img class="game-card-img" src="img/game.png" alt="Horizon Forbidden West"/>
+          <div class="game-card-description">
+            <h3>Horizon Forbidden West</h3>
+            <p><span class="producer">De</span>&nbsp;Sony Interactive Entertainment</p>
+            <div class="score-box">
+            <h2 class="game-card-score">9.7</h2>
+          </div>
           </div>
         </div>
-        <div class="game-card">
-          <img
-            class="game-card-img"
-            src="img/game.png"
-            alt="Horizon Forbidden West"
-          />
+         <div class="game-card">
+          <img class="game-card-img" src="img/game.png" alt="Horizon Forbidden West"/>
           <div class="game-card-description">
-            <h3>Horzion Forbidden West</h3>
-            <p>De Sony Interactive Entertainment</p>
-            <p class="game-score">9.7</p>
+            <h3>Horizon Forbidden West</h3>
+            <p><span class="producer">De</span>&nbsp;Sony Interactive Entertainment</p>
+            <div class="score-box">
+            <h2 class="game-card-score">9.7</h2>
           </div>
-        </div>
-        <div class="game-card">
-          <img
-            class="game-card-img"
-            src="img/game.png"
-            alt="Horizon Forbidden West"
-          />
-          <div class="game-card-description">
-            <h3>Horzion Forbidden West</h3>
-            <p>De Sony Interactive Entertainment</p>
-            <p class="game-score">9.7</p>
           </div>
+         </div>
         </div>
       </section>
-      <section id="subscribe" class="section-subscribe">
+      <section id="subscribe" class="section-subscribe container">
         <h1>Faça sua inscrição</h1>
-        <form action="obrigado.html">
-          <div>
+        <div class="subscribe-card">
+        <form action="obrigado.html" class="form-subscribe">
+          <div class="ctrl-name-box">
             <label for="ctrl-name"></label>
             <input
               id="ctrl-name"
               name="name"
               type="text"
-              placeholder="Nome completo"
+              placeholder="     Nome completo"
             />
           </div>
-          <div>
+          <div class="ctrl-email-box">
             <label for="ctrl-email"></label>
             <input
               id="ctrl-email"
               name="email"
               type="email"
-              placeholder="Email"
+              placeholder="     Email"
             />
           </div>
-          <div>
             <div>
-              <label for="ctrl-favorite">Qual sua plataforma preferida?</label>
+              <label for="ctrl-favorite" class="ctrl-favorite-label">Qual sua plataforma preferida?</label>
             </div>
-            <div>
-              <input type="radio" name="platform-1" id="ctrl-favorite-1" />
-              <label for="ctrl-favorite-1">PC</label>
+            <div class="radio-option">
+              <input type="radio" name="platform-1" id="ctrl-favorite-1" class="input-radio" />
+              <label for="ctrl-favorite-1" class="radio-label">PC</label>
             </div>
-            <div>
-              <input type="radio" name="platform-2" id="ctrl-favorite-2" />
-              <label for="ctrl-favorite-2">XBOX</label>
+            <div class="radio-option">
+              <input type="radio" name="platform-2" id="ctrl-favorite-2" class="input-radio" />
+              <label for="ctrl-favorite-2" class="radio-label">Xbox</label>
             </div>
-            <div>
-              <input type="radio" name="platform-3" id="ctrl-favorite-3" />
-              <label for="ctrl-favorite-3">Playstation</label>
+            <div class="radio-option">
+              <input type="radio" name="platform-3" id="ctrl-favorite-3" class="input-radio" />
+              <label for="ctrl-favorite-3" class="radio-label">Playstation</label>
             </div>
-            <div>
-              <input type="radio" name="platform-4" id="ctrl-favorite-4" />
-              <label for="ctrl-favorite-4">Nintendo</label>
-            </div>
-          </div>
           <div id="ctrl-newsletter">
-            <input id="ctrl-newsletter" name="newsletter" type="checkbox" />
-            <label for="ctrl-newsletter">Desejo receber novidades.</label>
+            <input id="ctrl-newsletter" name="newsletter" class="newsletter-button" type="checkbox" />
+            <label for="ctrl-newsletter" class="radio-label">Desejo receber novidades.</label>
           </div>
-          <div>
-            <input type="submit" value="Enviar" />
-            <input type="reset" value="Limpar" />
+          <div class="final-buttons-element">
+            <input type="submit" value="Enviar" class="submit-button" />
+            <input type="reset" value="Limpar" class="clear-button" />
           </div>
+        </div>
         </form>
       </section>
     </main>
     <footer>
-      <div class="footer-content">
-        <div>
+      <div class="footer-content container">
+        <div class="footer-social">
           <p>@dsplaygames</p>
           <p>/dsplaygames</p>
         </div>
-        <div>
+        <div class="footer-copyrights">
           <p>DS Play Games Ltda. Todos direitos reservados</p>
         </div>
-        <div>
-            <p>Política de privacidade</p>
-            <p>Termos de uso</p>
+        <div class="footer-policy-terms">
+          <p>Política de privacidade</p>
+          <p>Termos de uso</p>
         </div>
       </div>
     </footer>
